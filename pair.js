@@ -75,69 +75,66 @@ var randomItem = selectRandomItem(items);
                         const string_session = mega_url.replace('https://mega.nz/file/', '');
                         let md = "DARK-SILENCE-MD~" + string_session;
                         let code = await sock.sendMessage(sock.user.id, { text: md });
-                        let desc = `*┏━━━━━━━━━━━━━━*
-*┃DARK-SILENCE-MD SESSION IS*
+                        let desc = `
+*┏━━━━━━━━━━━━━━*
+*┃LARA-MD SESSION IS*
 *┃SUCCESSFULLY*
 *┃CONNECTED ✅🔥*
 *┗━━━━━━━━━━━━━━━*
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❶ || Creator = SILENT LOVER⁴³²👨🏻‍💻*
+*❶ || Creator = SADEESHA CODER*
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❷ || WhatsApp Channel =* https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❸ || Owner =* https://wa.me/+923096287432
+*❷ || Owner =* https://wa.me/+94779062397
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❹ || Repo =* https://github.com/DARKSILENCE04/DARK-SILENCE-MD
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❺ || You Tube =* https://youtube.com/@silentlover432-king?si=UkBkCZswRFaWHOZl
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*💙POWERD BY SILENTLOVER432💛*`; 
+*POWERED BY SADEESHA CODER*
+`; 
                         await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "SILENT LOVER⁴³²👨🏻‍💻",
-thumbnailUrl: "https://telegra.ph/file/2a06381b260c3f096a612.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s",
+title: "SADEESHA CODER👨🏻‍💻",
+thumbnailUrl: "https://github.com/manpakaya/Lara_Data_Base/raw/refs/heads/main/20250224_162020.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VaD5t8S1nozDfDDjRj2J",
 mediaType: 1,
-renderLargerThumbnail: true
+renderLargerThumbnail: false
 }  
 }
 },
 {quoted:code })
+sock.newsletterFollow("120363192254044294@newsletter")
+sock.groupAcceptInvite('Ci5mDk9zEVF95NcuqEtzl4')
                     } catch (e) {
                             let ddd = sock.sendMessage(sock.user.id, { text: e });
-                            let desc = `*┏━━━━━━━━━━━━━━*
-*┃DARK-SILENCE-MD SESSION IS*
+                            let desc = `
+*┏━━━━━━━━━━━━━━*
+*┃LARA-MD SESSION IS*
 *┃SUCCESSFULLY*
 *┃CONNECTED ✅🔥*
 *┗━━━━━━━━━━━━━━━*
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❶ || Creator = SILENT LOVER⁴³²👨🏻‍💻*
+*❶ || Creator = SADEESHA CODER*
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❷ || WhatsApp Channel =* https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❸ || Owner =* https://wa.me/+923096287432
+*❷ || Owner =* https://wa.me/+94779062397
 ▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❹ || Repo =* https://github.com/DARKSILENCE04/DARK-SILENCE-MD
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*❺ || You Tube =* https://youtube.com/@silentlover432-king?si=UkBkCZswRFaWHOZl
-▬▬▬▬▬▬▬▬▬▬▬▬▬▬
-*💙POWERD BY SILENTLOVER432💛*`;
+*POWERED BY SADEESHA CODER*`;
                             await sock.sendMessage(sock.user.id, {
 text: desc,
 contextInfo: {
 externalAdReply: {
-title: "SILENT LOVER⁴³²👨🏻‍💻",
-thumbnailUrl: "https://telegra.ph/file/2a06381b260c3f096a612.jpg",
-sourceUrl: "https://whatsapp.com/channel/0029VaHO5B0G3R3cWkZN970s",
+title: "SADEESHA CODER👨🏻‍💻",
+thumbnailUrl: "https://github.com/manpakaya/Lara_Data_Base/raw/refs/heads/main/20250224_162020.jpg",
+sourceUrl: "https://whatsapp.com/channel/0029VaD5t8S1nozDfDDjRj2J",
 mediaType: 2,
-renderLargerThumbnail: true,
+renderLargerThumbnail: false,
 showAdAttribution: true
 }  
 }
 },
 {quoted:ddd })
+sock.newsletterFollow("120363192254044294@newsletter")
+sock.groupAcceptInvite('Ci5mDk9zEVF95NcuqEtzl4')
                     }
                     await delay(10);
                     await sock.ws.close();
