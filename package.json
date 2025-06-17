@@ -21,6 +21,7 @@
     "megajs": "1.1.7",
     "pm2": "^6.0.6",
     "jimp": "^0.16.1",
-    "async-mutex":"0.4.1"
+    "async-mutex":"0.4.1",
+    "cheerio":"latest"
    }
 }
