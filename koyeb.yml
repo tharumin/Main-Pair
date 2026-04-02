@@ -1,0 +1,28 @@
+deploymentname: lara-pair
+
+services:
+  - name: web
+    type: web
+    git:
+      branch: main
+    docker:
+      dockerfile: Dockerfile
+      target: ""
+    instance_types:
+      - type: nano
+    regions:
+      - was
+    ports:
+      - port: 5000
+        protocol: http
+    routes:
+      - path: /
+        port: 5000
+    health_checks:
+      - grace_period: 10
+        interval: 60
+        restart_limit: 3
+        path: /health
+        port: 5000
+        protocol: http
+        timeout: 5
