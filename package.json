@@ -9,7 +9,7 @@
     "restart": "pm2 restart larapair"
   },
   "dependencies": {
-    "@whiskeysockets/baileys": "npm:gifted-baileys@^2.5.8",
+    "@whiskeysockets/baileys": "npm:@kelvdra/baileys",
     "@adiwajshing/keyed-db": "^0.2.4",
     "qrcode": "^1.5.3",
     "awesome-phonenumber": "^2.64.0",
