@@ -1,14 +1,11 @@
-FROM node:22-slim
+FROM node:22
 
 WORKDIR /app
 
-# Copy package files first (for better layer caching)
 COPY package*.json ./
 
-# Use npm install instead of npm ci (since you don't have a lockfile yet)
-RUN npm install --omit=dev
+RUN npm install
 
-# Copy the rest of your application
 COPY . .
 
 EXPOSE 8080
